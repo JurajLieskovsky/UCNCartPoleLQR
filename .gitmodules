@@ -1,0 +1,3 @@
+[submodule "deps/UCNCartPoleODE"]
+	path = deps/UCNCartPoleODE
+	url = git@github.com:JurajLieskovsky/UCNCartPoleODE.jl.git
