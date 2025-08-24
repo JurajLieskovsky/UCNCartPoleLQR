@@ -62,7 +62,7 @@ xs = map(t -> sol(t), ts)
 us = map(x -> controller(x), xs)
 
 state_labels = ["s" "q₀" "q₁" "v" "ω"]
-input_labels = ["u₀"]
+input_labels = "u₀"
 
 plt = plot(layout=(2, 1))
 plot!(plt, ts, mapreduce(x -> x[1:3]', vcat, xs), label=state_labels, subplot=1)

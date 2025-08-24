@@ -78,7 +78,7 @@ ts = tspan[1]:Δt:tspan[2]
 xs = map(t -> sol(t), ts)
 
 state_labels = ["s" "q₀" "q₁" "v" "ω"]
-input_labels = ["u₀"]
+input_labels = "u₀"
 
 plt = plot(layout=(2, 1))
 plot!(
