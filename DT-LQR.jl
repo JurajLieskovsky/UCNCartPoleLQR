@@ -36,7 +36,7 @@ A = E' * fx * E
 B = E' * fu
 
 # LQR design
-Q = diagm([1e1, 1e1, 1, 1])
+Q = diagm([1e1, 1e2, 1, 1])
 R = Matrix(I(1))
 
 S, _ = MatrixEquations.ared(A, B, R, Q)
